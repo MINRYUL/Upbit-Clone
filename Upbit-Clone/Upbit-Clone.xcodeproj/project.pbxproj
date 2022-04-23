@@ -10,8 +10,8 @@
 		A57A451D285DC071D78759AF /* Pods_Upbit_CloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0BC88019791F642C11066A /* Pods_Upbit_CloneTests.framework */; };
 		AA9150672813D6050001D2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150662813D6050001D2F5 /* AppDelegate.swift */; };
 		AA9150692813D6050001D2F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150682813D6050001D2F5 /* SceneDelegate.swift */; };
-		AA91506B2813D6050001D2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91506A2813D6050001D2F5 /* ViewController.swift */; };
-		AA91506E2813D6050001D2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA91506C2813D6050001D2F5 /* Main.storyboard */; };
+		AA91506B2813D6050001D2F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91506A2813D6050001D2F5 /* HomeViewController.swift */; };
+		AA91506E2813D6050001D2F5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA91506C2813D6050001D2F5 /* Home.storyboard */; };
 		AA9150702813D6060001D2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA91506F2813D6060001D2F5 /* Assets.xcassets */; };
 		AA9150732813D6060001D2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9150712813D6060001D2F5 /* LaunchScreen.storyboard */; };
 		AA91507E2813D6070001D2F5 /* Upbit_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91507D2813D6070001D2F5 /* Upbit_CloneTests.swift */; };
@@ -19,6 +19,15 @@
 		AA91508A2813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150892813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift */; };
 		AA9150A02813DCC40001D2F5 /* UBSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91509F2813DCC40001D2F5 /* UBSocket.swift */; };
 		AA9150A22813DE8B0001D2F5 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150A12813DE8B0001D2F5 /* HTTPRequest.swift */; };
+		AA9150A5281400090001D2F5 /* UpBitConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150A4281400090001D2F5 /* UpBitConstant.swift */; };
+		AA9150AA281403C60001D2F5 /* OrderbookGetDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150A9281403C60001D2F5 /* OrderbookGetDTO.swift */; };
+		AA9150AC281408390001D2F5 /* WebSocketSetDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150AB281408390001D2F5 /* WebSocketSetDTO.swift */; };
+		AA9150AE2814095C0001D2F5 /* TicketSetDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150AD2814095C0001D2F5 /* TicketSetDTO.swift */; };
+		AA9150B028140AA20001D2F5 /* FormatSetDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150AF28140AA20001D2F5 /* FormatSetDTO.swift */; };
+		AA9150B228140AF40001D2F5 /* OrderbookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150B128140AF40001D2F5 /* OrderbookRepository.swift */; };
+		AA9150B428140B9E0001D2F5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150B328140B9E0001D2F5 /* TabBarViewController.swift */; };
+		AA9150B628140BEB0001D2F5 /* UBStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150B528140BEB0001D2F5 /* UBStoryBoard.swift */; };
+		AA9150B928140CC70001D2F5 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150B828140CC70001D2F5 /* UIViewController+Extension.swift */; };
 		ABE3ECA5889495EE1EA75314 /* Pods_Upbit_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B48CEC33A65685904B0E20 /* Pods_Upbit_Clone.framework */; };
 		B76D5FE1B4C921C79C132F2F /* Pods_Upbit_Clone_Upbit_CloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAAA67E4AA1551165175C57 /* Pods_Upbit_Clone_Upbit_CloneUITests.framework */; };
 /* End PBXBuildFile section */
@@ -48,8 +57,8 @@
 		AA9150632813D6050001D2F5 /* Upbit-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upbit-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9150662813D6050001D2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA9150682813D6050001D2F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AA91506A2813D6050001D2F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AA91506D2813D6050001D2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA91506A2813D6050001D2F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AA91506D2813D6050001D2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		AA91506F2813D6060001D2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9150722813D6060001D2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9150742813D6060001D2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +69,15 @@
 		AA9150892813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upbit_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA91509F2813DCC40001D2F5 /* UBSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBSocket.swift; sourceTree = "<group>"; };
 		AA9150A12813DE8B0001D2F5 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		AA9150A4281400090001D2F5 /* UpBitConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpBitConstant.swift; sourceTree = "<group>"; };
+		AA9150A9281403C60001D2F5 /* OrderbookGetDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderbookGetDTO.swift; sourceTree = "<group>"; };
+		AA9150AB281408390001D2F5 /* WebSocketSetDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketSetDTO.swift; sourceTree = "<group>"; };
+		AA9150AD2814095C0001D2F5 /* TicketSetDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSetDTO.swift; sourceTree = "<group>"; };
+		AA9150AF28140AA20001D2F5 /* FormatSetDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatSetDTO.swift; sourceTree = "<group>"; };
+		AA9150B128140AF40001D2F5 /* OrderbookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderbookRepository.swift; sourceTree = "<group>"; };
+		AA9150B328140B9E0001D2F5 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		AA9150B528140BEB0001D2F5 /* UBStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBStoryBoard.swift; sourceTree = "<group>"; };
+		AA9150B828140CC70001D2F5 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		BCDDBE486ED4D7A9E2C80A5E /* Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone-Upbit-CloneUITests/Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BD7970F5AB9C3DF63A8544F8 /* Pods-Upbit-Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone.debug.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone/Pods-Upbit-Clone.debug.xcconfig"; sourceTree = "<group>"; };
 		BF9E3797DC9F7E2BA913D53A /* Pods-Upbit-Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone.release.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone/Pods-Upbit-Clone.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,7 +200,8 @@
 		AA9150972813D7EC0001D2F5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AA91506A2813D6050001D2F5 /* ViewController.swift */,
+				AA91506A2813D6050001D2F5 /* HomeViewController.swift */,
+				AA9150B328140B9E0001D2F5 /* TabBarViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -190,6 +209,7 @@
 		AA9150982813D7F40001D2F5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				AA9150A7281403730001D2F5 /* Repositories */,
 				AA91509E2813DCAB0001D2F5 /* Network */,
 			);
 			path = Data;
@@ -198,6 +218,7 @@
 		AA9150992813D7FA0001D2F5 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				AA9150A6281403470001D2F5 /* Entities */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -223,6 +244,8 @@
 		AA91509C2813D8130001D2F5 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				AA9150B728140CB10001D2F5 /* Extension */,
+				AA9150A32813FFED0001D2F5 /* Constant */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -230,7 +253,7 @@
 		AA91509D2813D85C0001D2F5 /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				AA91506C2813D6050001D2F5 /* Main.storyboard */,
+				AA91506C2813D6050001D2F5 /* Home.storyboard */,
 				AA9150712813D6060001D2F5 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoard;
@@ -239,10 +262,54 @@
 		AA91509E2813DCAB0001D2F5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				AA9150A8281403AD0001D2F5 /* DataMapping */,
 				AA91509F2813DCC40001D2F5 /* UBSocket.swift */,
 				AA9150A12813DE8B0001D2F5 /* HTTPRequest.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		AA9150A32813FFED0001D2F5 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				AA9150A4281400090001D2F5 /* UpBitConstant.swift */,
+				AA9150B528140BEB0001D2F5 /* UBStoryBoard.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		AA9150A6281403470001D2F5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AA9150A7281403730001D2F5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AA9150B128140AF40001D2F5 /* OrderbookRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AA9150A8281403AD0001D2F5 /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				AA9150A9281403C60001D2F5 /* OrderbookGetDTO.swift */,
+				AA9150AB281408390001D2F5 /* WebSocketSetDTO.swift */,
+				AA9150AD2814095C0001D2F5 /* TicketSetDTO.swift */,
+				AA9150AF28140AA20001D2F5 /* FormatSetDTO.swift */,
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		AA9150B728140CB10001D2F5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA9150B828140CC70001D2F5 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,7 +423,7 @@
 			files = (
 				AA9150732813D6060001D2F5 /* LaunchScreen.storyboard in Resources */,
 				AA9150702813D6060001D2F5 /* Assets.xcassets in Resources */,
-				AA91506E2813D6050001D2F5 /* Main.storyboard in Resources */,
+				AA91506E2813D6050001D2F5 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,11 +551,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA91506B2813D6050001D2F5 /* ViewController.swift in Sources */,
+				AA91506B2813D6050001D2F5 /* HomeViewController.swift in Sources */,
+				AA9150B228140AF40001D2F5 /* OrderbookRepository.swift in Sources */,
 				AA9150A02813DCC40001D2F5 /* UBSocket.swift in Sources */,
+				AA9150AC281408390001D2F5 /* WebSocketSetDTO.swift in Sources */,
+				AA9150B928140CC70001D2F5 /* UIViewController+Extension.swift in Sources */,
+				AA9150B428140B9E0001D2F5 /* TabBarViewController.swift in Sources */,
+				AA9150B028140AA20001D2F5 /* FormatSetDTO.swift in Sources */,
 				AA9150A22813DE8B0001D2F5 /* HTTPRequest.swift in Sources */,
+				AA9150B628140BEB0001D2F5 /* UBStoryBoard.swift in Sources */,
 				AA9150672813D6050001D2F5 /* AppDelegate.swift in Sources */,
+				AA9150AE2814095C0001D2F5 /* TicketSetDTO.swift in Sources */,
+				AA9150AA281403C60001D2F5 /* OrderbookGetDTO.swift in Sources */,
 				AA9150692813D6050001D2F5 /* SceneDelegate.swift in Sources */,
+				AA9150A5281400090001D2F5 /* UpBitConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,12 +601,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA91506C2813D6050001D2F5 /* Main.storyboard */ = {
+		AA91506C2813D6050001D2F5 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AA91506D2813D6050001D2F5 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		AA9150712813D6060001D2F5 /* LaunchScreen.storyboard */ = {
@@ -670,7 +746,6 @@
 				INFOPLIST_FILE = "Upbit-Clone/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -699,7 +774,6 @@
 				INFOPLIST_FILE = "Upbit-Clone/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
