@@ -7,10 +7,10 @@
 
 import Foundation
 
-protocol HTTPRequest {
+protocol Request {
     var baseURL: URL { get }
     var headers: [String: String] { get }
-    var httpMethod: HTTPMethodType { get }
+    var httpMethod: HTTPMethodType? { get }
 }
 
 public enum HTTPMethodType: String {
@@ -22,14 +22,14 @@ public enum HTTPMethodType: String {
     case delete  = "DELETE"
 }
 
-public struct DefaultHTTPRequest: HTTPRequest {
+public struct DefaultRequest: Request {
     public let baseURL: URL
     public let headers: [String: String]
-    public let httpMethod: HTTPMethodType
+    public let httpMethod: HTTPMethodType?
     
      public init(baseURL: URL,
                  headers: [String: String] = [:],
-                 httpMethod: HTTPMethodType) {
+                 httpMethod: HTTPMethodType? = nil) {
         self.baseURL = baseURL
         self.headers = headers
         self.httpMethod = httpMethod
@@ -40,7 +40,10 @@ public struct DefaultHTTPRequest: HTTPRequest {
         self.headers.forEach({ header in
             urlRequest.addValue(header.value, forHTTPHeaderField: header.key)
         })
-        urlRequest.httpMethod = self.httpMethod.rawValue
+        
+        guard let httpMethod = self.httpMethod else { return urlRequest }
+        
+        urlRequest.httpMethod = httpMethod.rawValue
         return urlRequest
     }
 }

@@ -50,13 +50,8 @@ final class UBSocket: NSObject {
         self.webSocket = nil
     }
     
-    func openSocketWithURL(_ url: String) {
-        guard let url = URL(string: url) else {
-            _receiveData.onError(UBSocketError.urlError)
-            _receiveString.onError(UBSocketError.urlError)
-            return
-        }
-        if !self.isOpened { self.openWebSocket(url: url) }
+    func openSocket(with request: URLRequest) {
+        if !self.isOpened { self.openWebSocket(with: request) }
         
         guard let webSocket = self.webSocket else {
             _receiveData.onError(UBSocketError.webSocketIsNotExist)
@@ -85,8 +80,7 @@ final class UBSocket: NSObject {
         })
     }
     
-    private func openWebSocket(url: URL) {
-        let request = URLRequest(url: url)
+    private func openWebSocket(with request: URLRequest) {
         let session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)
         let webSocket = session.webSocketTask(with: request)
         self.webSocket = webSocket
