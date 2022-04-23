@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57A451D285DC071D78759AF /* Pods_Upbit_CloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0BC88019791F642C11066A /* Pods_Upbit_CloneTests.framework */; };
+		AA9150672813D6050001D2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150662813D6050001D2F5 /* AppDelegate.swift */; };
+		AA9150692813D6050001D2F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150682813D6050001D2F5 /* SceneDelegate.swift */; };
+		AA91506B2813D6050001D2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91506A2813D6050001D2F5 /* ViewController.swift */; };
+		AA91506E2813D6050001D2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA91506C2813D6050001D2F5 /* Main.storyboard */; };
+		AA9150702813D6060001D2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA91506F2813D6060001D2F5 /* Assets.xcassets */; };
+		AA9150732813D6060001D2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9150712813D6060001D2F5 /* LaunchScreen.storyboard */; };
+		AA91507E2813D6070001D2F5 /* Upbit_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91507D2813D6070001D2F5 /* Upbit_CloneTests.swift */; };
+		AA9150882813D6070001D2F5 /* Upbit_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150872813D6070001D2F5 /* Upbit_CloneUITests.swift */; };
+		AA91508A2813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150892813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift */; };
+		ABE3ECA5889495EE1EA75314 /* Pods_Upbit_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B48CEC33A65685904B0E20 /* Pods_Upbit_Clone.framework */; };
+		B76D5FE1B4C921C79C132F2F /* Pods_Upbit_Clone_Upbit_CloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAAA67E4AA1551165175C57 /* Pods_Upbit_Clone_Upbit_CloneUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA91507A2813D6070001D2F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA91505B2813D6050001D2F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9150622813D6050001D2F5;
+			remoteInfo = "Upbit-Clone";
+		};
+		AA9150842813D6070001D2F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA91505B2813D6050001D2F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9150622813D6050001D2F5;
+			remoteInfo = "Upbit-Clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BAAA67E4AA1551165175C57 /* Pods_Upbit_Clone_Upbit_CloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Upbit_Clone_Upbit_CloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0BC88019791F642C11066A /* Pods_Upbit_CloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Upbit_CloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF49AF802E018E27A2AC0AD /* Pods-Upbit-CloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-CloneTests.release.xcconfig"; path = "Target Support Files/Pods-Upbit-CloneTests/Pods-Upbit-CloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		7985401F76083A2B6463F535 /* Pods-Upbit-CloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-CloneTests.debug.xcconfig"; path = "Target Support Files/Pods-Upbit-CloneTests/Pods-Upbit-CloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9150632813D6050001D2F5 /* Upbit-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upbit-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9150662813D6050001D2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA9150682813D6050001D2F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA91506A2813D6050001D2F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA91506D2813D6050001D2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA91506F2813D6060001D2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9150722813D6060001D2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA9150742813D6060001D2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9150792813D6070001D2F5 /* Upbit-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Upbit-CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA91507D2813D6070001D2F5 /* Upbit_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upbit_CloneTests.swift; sourceTree = "<group>"; };
+		AA9150832813D6070001D2F5 /* Upbit-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Upbit-CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9150872813D6070001D2F5 /* Upbit_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upbit_CloneUITests.swift; sourceTree = "<group>"; };
+		AA9150892813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upbit_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCDDBE486ED4D7A9E2C80A5E /* Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone-Upbit-CloneUITests/Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD7970F5AB9C3DF63A8544F8 /* Pods-Upbit-Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone.debug.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone/Pods-Upbit-Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		BF9E3797DC9F7E2BA913D53A /* Pods-Upbit-Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone.release.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone/Pods-Upbit-Clone.release.xcconfig"; sourceTree = "<group>"; };
+		F3B48CEC33A65685904B0E20 /* Pods_Upbit_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Upbit_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBFD8446E447D0C545BC2FF /* Pods-Upbit-Clone-Upbit-CloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone-Upbit-CloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone-Upbit-CloneUITests/Pods-Upbit-Clone-Upbit-CloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9150602813D6050001D2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE3ECA5889495EE1EA75314 /* Pods_Upbit_Clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9150762813D6070001D2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57A451D285DC071D78759AF /* Pods_Upbit_CloneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9150802813D6070001D2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76D5FE1B4C921C79C132F2F /* Pods_Upbit_Clone_Upbit_CloneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53965BBF17211FE900D55C2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B48CEC33A65685904B0E20 /* Pods_Upbit_Clone.framework */,
+				1BAAA67E4AA1551165175C57 /* Pods_Upbit_Clone_Upbit_CloneUITests.framework */,
+				5F0BC88019791F642C11066A /* Pods_Upbit_CloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A98B3915928C85B9EC9CAF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD7970F5AB9C3DF63A8544F8 /* Pods-Upbit-Clone.debug.xcconfig */,
+				BF9E3797DC9F7E2BA913D53A /* Pods-Upbit-Clone.release.xcconfig */,
+				FEBFD8446E447D0C545BC2FF /* Pods-Upbit-Clone-Upbit-CloneUITests.debug.xcconfig */,
+				BCDDBE486ED4D7A9E2C80A5E /* Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig */,
+				7985401F76083A2B6463F535 /* Pods-Upbit-CloneTests.debug.xcconfig */,
+				5FF49AF802E018E27A2AC0AD /* Pods-Upbit-CloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA91505A2813D6050001D2F5 = {
+			isa = PBXGroup;
+			children = (
+				AA9150652813D6050001D2F5 /* Upbit-Clone */,
+				AA91507C2813D6070001D2F5 /* Upbit-CloneTests */,
+				AA9150862813D6070001D2F5 /* Upbit-CloneUITests */,
+				AA9150642813D6050001D2F5 /* Products */,
+				5A98B3915928C85B9EC9CAF8 /* Pods */,
+				53965BBF17211FE900D55C2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9150642813D6050001D2F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9150632813D6050001D2F5 /* Upbit-Clone.app */,
+				AA9150792813D6070001D2F5 /* Upbit-CloneTests.xctest */,
+				AA9150832813D6070001D2F5 /* Upbit-CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9150652813D6050001D2F5 /* Upbit-Clone */ = {
+			isa = PBXGroup;
+			children = (
+				AA91509C2813D8130001D2F5 /* Utility */,
+				AA91509B2813D80A0001D2F5 /* Resource */,
+				AA91509A2813D8000001D2F5 /* Application */,
+				AA9150992813D7FA0001D2F5 /* Domain */,
+				AA9150982813D7F40001D2F5 /* Data */,
+				AA9150962813D7D10001D2F5 /* Presentation */,
+			);
+			path = "Upbit-Clone";
+			sourceTree = "<group>";
+		};
+		AA91507C2813D6070001D2F5 /* Upbit-CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA91507D2813D6070001D2F5 /* Upbit_CloneTests.swift */,
+			);
+			path = "Upbit-CloneTests";
+			sourceTree = "<group>";
+		};
+		AA9150862813D6070001D2F5 /* Upbit-CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9150872813D6070001D2F5 /* Upbit_CloneUITests.swift */,
+				AA9150892813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift */,
+			);
+			path = "Upbit-CloneUITests";
+			sourceTree = "<group>";
+		};
+		AA9150962813D7D10001D2F5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AA91509D2813D85C0001D2F5 /* StoryBoard */,
+				AA9150972813D7EC0001D2F5 /* ViewController */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AA9150972813D7EC0001D2F5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA91506A2813D6050001D2F5 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AA9150982813D7F40001D2F5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AA9150992813D7FA0001D2F5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AA91509A2813D8000001D2F5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AA9150682813D6050001D2F5 /* SceneDelegate.swift */,
+				AA9150662813D6050001D2F5 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AA91509B2813D80A0001D2F5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AA9150742813D6060001D2F5 /* Info.plist */,
+				AA91506F2813D6060001D2F5 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AA91509C2813D8130001D2F5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AA91509D2813D85C0001D2F5 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AA91506C2813D6050001D2F5 /* Main.storyboard */,
+				AA9150712813D6060001D2F5 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9150622813D6050001D2F5 /* Upbit-Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA91508D2813D6070001D2F5 /* Build configuration list for PBXNativeTarget "Upbit-Clone" */;
+			buildPhases = (
+				D001096999F5B73978B10845 /* [CP] Check Pods Manifest.lock */,
+				AA91505F2813D6050001D2F5 /* Sources */,
+				AA9150602813D6050001D2F5 /* Frameworks */,
+				AA9150612813D6050001D2F5 /* Resources */,
+				09546EA3C58A958272B0D0AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Upbit-Clone";
+			productName = "Upbit-Clone";
+			productReference = AA9150632813D6050001D2F5 /* Upbit-Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9150782813D6070001D2F5 /* Upbit-CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9150902813D6070001D2F5 /* Build configuration list for PBXNativeTarget "Upbit-CloneTests" */;
+			buildPhases = (
+				F3C084965F3B2772FAFF50E3 /* [CP] Check Pods Manifest.lock */,
+				AA9150752813D6070001D2F5 /* Sources */,
+				AA9150762813D6070001D2F5 /* Frameworks */,
+				AA9150772813D6070001D2F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA91507B2813D6070001D2F5 /* PBXTargetDependency */,
+			);
+			name = "Upbit-CloneTests";
+			productName = "Upbit-CloneTests";
+			productReference = AA9150792813D6070001D2F5 /* Upbit-CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA9150822813D6070001D2F5 /* Upbit-CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9150932813D6070001D2F5 /* Build configuration list for PBXNativeTarget "Upbit-CloneUITests" */;
+			buildPhases = (
+				3D9BC0893DC67B97D629F27D /* [CP] Check Pods Manifest.lock */,
+				AA91507F2813D6070001D2F5 /* Sources */,
+				AA9150802813D6070001D2F5 /* Frameworks */,
+				AA9150812813D6070001D2F5 /* Resources */,
+				FA79A6A5423DCCB608ABC77D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9150852813D6070001D2F5 /* PBXTargetDependency */,
+			);
+			name = "Upbit-CloneUITests";
+			productName = "Upbit-CloneUITests";
+			productReference = AA9150832813D6070001D2F5 /* Upbit-CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA91505B2813D6050001D2F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AA9150622813D6050001D2F5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AA9150782813D6070001D2F5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AA9150622813D6050001D2F5;
+					};
+					AA9150822813D6070001D2F5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AA9150622813D6050001D2F5;
+					};
+				};
+			};
+			buildConfigurationList = AA91505E2813D6050001D2F5 /* Build configuration list for PBXProject "Upbit-Clone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA91505A2813D6050001D2F5;
+			productRefGroup = AA9150642813D6050001D2F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9150622813D6050001D2F5 /* Upbit-Clone */,
+				AA9150782813D6070001D2F5 /* Upbit-CloneTests */,
+				AA9150822813D6070001D2F5 /* Upbit-CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9150612813D6050001D2F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9150732813D6060001D2F5 /* LaunchScreen.storyboard in Resources */,
+				AA9150702813D6060001D2F5 /* Assets.xcassets in Resources */,
+				AA91506E2813D6050001D2F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9150772813D6070001D2F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9150812813D6070001D2F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09546EA3C58A958272B0D0AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Upbit-Clone/Pods-Upbit-Clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Upbit-Clone/Pods-Upbit-Clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Upbit-Clone/Pods-Upbit-Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D9BC0893DC67B97D629F27D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Upbit-Clone-Upbit-CloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D001096999F5B73978B10845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Upbit-Clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C084965F3B2772FAFF50E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Upbit-CloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA79A6A5423DCCB608ABC77D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Upbit-Clone-Upbit-CloneUITests/Pods-Upbit-Clone-Upbit-CloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Upbit-Clone-Upbit-CloneUITests/Pods-Upbit-Clone-Upbit-CloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Upbit-Clone-Upbit-CloneUITests/Pods-Upbit-Clone-Upbit-CloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA91505F2813D6050001D2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA91506B2813D6050001D2F5 /* ViewController.swift in Sources */,
+				AA9150672813D6050001D2F5 /* AppDelegate.swift in Sources */,
+				AA9150692813D6050001D2F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9150752813D6070001D2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA91507E2813D6070001D2F5 /* Upbit_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA91507F2813D6070001D2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9150882813D6070001D2F5 /* Upbit_CloneUITests.swift in Sources */,
+				AA91508A2813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA91507B2813D6070001D2F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9150622813D6050001D2F5 /* Upbit-Clone */;
+			targetProxy = AA91507A2813D6070001D2F5 /* PBXContainerItemProxy */;
+		};
+		AA9150852813D6070001D2F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9150622813D6050001D2F5 /* Upbit-Clone */;
+			targetProxy = AA9150842813D6070001D2F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA91506C2813D6050001D2F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA91506D2813D6050001D2F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9150712813D6060001D2F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9150722813D6060001D2F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA91508B2813D6070001D2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA91508C2813D6070001D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA91508E2813D6070001D2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7970F5AB9C3DF63A8544F8 /* Pods-Upbit-Clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Upbit-Clone/Resource/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MINRYUL.Upbit-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA91508F2813D6070001D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9E3797DC9F7E2BA913D53A /* Pods-Upbit-Clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Upbit-Clone/Resource/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MINRYUL.Upbit-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA9150912813D6070001D2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7985401F76083A2B6463F535 /* Pods-Upbit-CloneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MINRYUL.Upbit-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upbit-Clone.app/Upbit-Clone";
+			};
+			name = Debug;
+		};
+		AA9150922813D6070001D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF49AF802E018E27A2AC0AD /* Pods-Upbit-CloneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MINRYUL.Upbit-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upbit-Clone.app/Upbit-Clone";
+			};
+			name = Release;
+		};
+		AA9150942813D6070001D2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBFD8446E447D0C545BC2FF /* Pods-Upbit-Clone-Upbit-CloneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MINRYUL.Upbit-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Upbit-Clone";
+			};
+			name = Debug;
+		};
+		AA9150952813D6070001D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDDBE486ED4D7A9E2C80A5E /* Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MINRYUL.Upbit-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Upbit-Clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA91505E2813D6050001D2F5 /* Build configuration list for PBXProject "Upbit-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA91508B2813D6070001D2F5 /* Debug */,
+				AA91508C2813D6070001D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA91508D2813D6070001D2F5 /* Build configuration list for PBXNativeTarget "Upbit-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA91508E2813D6070001D2F5 /* Debug */,
+				AA91508F2813D6070001D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9150902813D6070001D2F5 /* Build configuration list for PBXNativeTarget "Upbit-CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9150912813D6070001D2F5 /* Debug */,
+				AA9150922813D6070001D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9150932813D6070001D2F5 /* Build configuration list for PBXNativeTarget "Upbit-CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9150942813D6070001D2F5 /* Debug */,
+				AA9150952813D6070001D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA91505B2813D6050001D2F5 /* Project object */;
+}
