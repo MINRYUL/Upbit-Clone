@@ -17,6 +17,8 @@
 		AA91507E2813D6070001D2F5 /* Upbit_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91507D2813D6070001D2F5 /* Upbit_CloneTests.swift */; };
 		AA9150882813D6070001D2F5 /* Upbit_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150872813D6070001D2F5 /* Upbit_CloneUITests.swift */; };
 		AA91508A2813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150892813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift */; };
+		AA9150A02813DCC40001D2F5 /* UBSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91509F2813DCC40001D2F5 /* UBSocket.swift */; };
+		AA9150A22813DE8B0001D2F5 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9150A12813DE8B0001D2F5 /* HTTPRequest.swift */; };
 		ABE3ECA5889495EE1EA75314 /* Pods_Upbit_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B48CEC33A65685904B0E20 /* Pods_Upbit_Clone.framework */; };
 		B76D5FE1B4C921C79C132F2F /* Pods_Upbit_Clone_Upbit_CloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAAA67E4AA1551165175C57 /* Pods_Upbit_Clone_Upbit_CloneUITests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,8 @@
 		AA9150832813D6070001D2F5 /* Upbit-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Upbit-CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9150872813D6070001D2F5 /* Upbit_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upbit_CloneUITests.swift; sourceTree = "<group>"; };
 		AA9150892813D6070001D2F5 /* Upbit_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upbit_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA91509F2813DCC40001D2F5 /* UBSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBSocket.swift; sourceTree = "<group>"; };
+		AA9150A12813DE8B0001D2F5 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
 		BCDDBE486ED4D7A9E2C80A5E /* Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone-Upbit-CloneUITests/Pods-Upbit-Clone-Upbit-CloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BD7970F5AB9C3DF63A8544F8 /* Pods-Upbit-Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone.debug.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone/Pods-Upbit-Clone.debug.xcconfig"; sourceTree = "<group>"; };
 		BF9E3797DC9F7E2BA913D53A /* Pods-Upbit-Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upbit-Clone.release.xcconfig"; path = "Target Support Files/Pods-Upbit-Clone/Pods-Upbit-Clone.release.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +190,7 @@
 		AA9150982813D7F40001D2F5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				AA91509E2813DCAB0001D2F5 /* Network */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -229,6 +234,15 @@
 				AA9150712813D6060001D2F5 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		AA91509E2813DCAB0001D2F5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AA91509F2813DCC40001D2F5 /* UBSocket.swift */,
+				AA9150A12813DE8B0001D2F5 /* HTTPRequest.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,6 +485,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA91506B2813D6050001D2F5 /* ViewController.swift in Sources */,
+				AA9150A02813DCC40001D2F5 /* UBSocket.swift in Sources */,
+				AA9150A22813DE8B0001D2F5 /* HTTPRequest.swift in Sources */,
 				AA9150672813D6050001D2F5 /* AppDelegate.swift in Sources */,
 				AA9150692813D6050001D2F5 /* SceneDelegate.swift in Sources */,
 			);
